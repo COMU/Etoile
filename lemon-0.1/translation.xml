@@ -1,0 +1,7 @@
+<PISI>
+  <Source>
+     <Name>lemon</Name>
+     <Summary xml:lang="tr">lemon bir dilbilgisi ayrıştırıcıdır.</Summary> 
+     <Description xml:lang="tr">lemon ayrıştırıcı, bir bağlamda özgür dilbilgisini alır ve bu dilbilgisini kullanan bir dosyayı ayrıştıracak bir altprograma dönüştürür.</Description>
+  </Source>
+</PISI>

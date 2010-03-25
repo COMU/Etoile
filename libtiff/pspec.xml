@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>libtiff</Name>
+        <Homepage>http://www.remotesensing.org/libtiff/</Homepage>
+        <Packager>
+            <Name>Aydan Taşdemir</Name>
+            <Email>aydantasdemir@gmail.com</Email>
+        </Packager>
+        <License>LGPLv2.1</License>
+        <IsA>library</IsA>
+        <PartOf>programming.library</PartOf>
+        <Summary>This library support Tag Image File Format </Summary>
+        <Archive sha1sum="5c054d31e350e53102221b7760c3700cf70b4327" type="targz">http://download.osgeo.org/libtiff/tiff-3.9.2.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>autoconf</Dependency>
+            <Dependency>automake</Dependency>
+        </BuildDependencies>
+    </Source>
+        <Package>                                                                                                                                                                 <Name>libtiff</Name>
+            <Files>                                                                                                                                                                    <Path fileType="bin">/usr/bin</Path>                                                                                                                             <Path fileType="library">/usr/lib</Path>
+                      <Path fileType="header">/usr/include</Path>                                                                                                                      <Path fileType="doc">/usr/share/doc</Path>                                                                                                                       <Path fileType="man">/usr/share/man</Path>
+            </Files>
+        </Package>
+
+        <History>                                                                                                                                                               <Update release="1">
+                   <Date>2010-03-24</Date>                                                                                                                                          <Version>3.9.2</Version>
+                   <Name>Aydan Taşdemir</Name>
+                   <Email>aydantasdemir@gmail.com</Email>
+                </Update>
+            </History>
+        </PISI>

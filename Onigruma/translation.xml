@@ -1,0 +1,7 @@
+<PISI>
+    <Source>
+        <Name>Onigruma</Name>
+        <Summary xml:lang="tr">Onigruma,düzenli ifadeler kütüphanesidir</Summary>
+        <Description xml:lang="tr">Bu kütüphanenin özelliği,her bir düzenli ifadenin özel olabilmesi için farklı karakterle kodlamasıdır.</Description>
+    </Source>
+</PISI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>llvm</Name>
+        <Homepage>http://llvm.org/</Homepage>
+        <Packager>
+            <Name>Aydan Taşdemir</Name>
+            <Email>aydantasdemir@gmail.com</Email>
+        </Packager>
+        <License>open source</License>
+        <IsA>app:daemon</IsA>
+        <PartOf>programming.tool</PartOf>
+        <Summary>which is designed for compile-time, link-time, run-time, and "idle-time" optimization of programs written in arbitrary programming languages</Summary>
+        <Description>Programming language optimizer.</Description>
+        <Archive sha1sum="547471147cbf6d3e49539e01196ffada2c79c250" type="targz">http://llvm.org/releases/2.6/llvm-2.6.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>libffi</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>llvm</Name>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="header">/usr/include</Path>
+            <Path fileType="localedata">/usr/docs/llvm</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="doc">/usr/doc</Path>
+            <Path fileType="data">/usr/share</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2010-03-24</Date>
+            <Version>2.6</Version>
+            <Comment>First release.</Comment>
+            <Name>Aydan Taşdemir</Name>
+            <Email>aydantasdemir@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>llvm</Name>
+        <Summary xml:lang="tr">LLVM bir derleme stratejisi,sanal bir komut seti,bir derleyici altyapısıdır.</Summary>
+        <Description xml:lang="en">LLVM is a compilation strategy,virtual instruction set,a compiler infastructure.</Description>
+    </Source>
+</PISI>
+

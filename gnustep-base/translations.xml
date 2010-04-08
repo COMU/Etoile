@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <PISI>
         <Source>
-            <Name>llvm</Name>
+            <Name>gnustep-base</Name>
             <Summary xml:lang="tr">Temek Kütüphane</Summary>
             <Description xml:lang="tr">gnustep-base,grafiksel c nesneleri içermeyen temel bir kütüphanedir.</Description>
         </Source>

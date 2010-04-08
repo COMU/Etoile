@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>gnustep-make</Name>
+        <Homepage>http://www.gnustep.org/</Homepage>
+        <Packager>
+            <Name>Aydan Taşdemir</Name>
+            <Email>aydantasdemir@gmail.com</Email>
+        </Packager>
+        <License>The GNU General Public License</License>
+        <IsA>app:console</IsA>
+        <PartOf>programming.environment</PartOf>
+        <Summary>GNUstep provides an environment to easily develop applications</Summary>
+        <Description>GNUstep is suited both for advanced GUI desktop applications as well as for server applications.</Description>
+        <Archive sha1sum="35654bab0a6576084e486e062e7e42603026509d" type="targz">ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-make-2.2.0.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>ffcall</Dependency>
+            <Dependency>libxml2</Dependency>
+            <Dependency>jpeg</Dependency>
+            <Dependency>tiff</Dependency>
+            <Dependency>libpng</Dependency>
+            <Dependency>freetype</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>gnustep-make</Name>
+        <Files>
+            <Path fileType="config">/etc</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="header">/usr/include</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share</Path>
+        </Files>
+        <!--Provides>
+            <COMAR script="package.py">System.Package</COMAR>
+        </Provides-->
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2010-04-07</Date>
+            <Version>2.2.0</Version>
+            <Comment>First release.</Comment>
+            <Name>Aydan Taşdemir</Name>
+            <Email>aydantasdemir@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
+

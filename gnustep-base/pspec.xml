@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>gnustep-base-1.18.0</Name>
+        <Homepage>http://www.gnustep.org/</Homepage>
+        <Packager>
+            <Name>Merve Yuzbasioglu</Name>
+            <Email>merveyuzbasioglu89@gmail.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <IsA>library</IsA>
+        <Summary>the Foundation library</Summary>
+        <Description>The GNUstep Base Library is a library of general-purpose, non-graphical Objective C objects</Description>
+        <Archive sha1sum="30c13e673ad550c988f03adb9c545a8de1a17d19" type="targz">ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-base-1.18.0.tar.gz</Archive>
+        <BuildDependencies>
+           <Dependency>ffcall</Dependency>
+           <Dependency>libxml2</Dependency>
+           <Dependency>libxslt</Dependency>
+           <Dependency>openssl</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>gnustep-base</Name>
+        <Files>
+            <Path fileType="config">/etc</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="header">/usr/include</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2010-04-08</Date>
+            <Version>1.18.0</Version>
+            <Comment>First release.</Comment>
+            <Name>Merve Yuzbasioglu</Name>
+            <Email>merveyuzbasioglu89@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
+

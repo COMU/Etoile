@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>gnustep-gui</Name>
+        <Summary xml:lang="tr">GNUstep GUI Kütüphanesi</Summary>
+        <Description xml:lang="tr">GNUstep gui,tamamen  the Objective-C ile oluşturulmuş grafiksel kullanıcı arayüzü kütüphanesidir.</Description>
+    </Source>
+</PISI>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>gnustep-gui-0.16.0</Name>
+        <Homepage>http://www.gnustep.org/</Homepage>
+        <Packager>
+            <Name>Merve Yuzbasioglu</Name>
+            <Email>merveyuzbasioglu89@gmail.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <IsA>library</IsA>
+        <PartOf>programming.library</PartOf>
+        <Summary>GNUstep GUI Library</Summary>
+        <Description>The GNUstep gui library is a library of graphical user interface classes written completely in the Objective-C language</Description>
+        <Archive sha1sum="cc0a14f700a3736b8e4113d3ad80ed6f979d60be" type="targz">ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-gui-0.16.0.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>tiff</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>gnustep-gui</Name>
+        <Files>
+            <Path fileType="config">/etc</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="header">/usr/include</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2010-04-08</Date>
+            <Version>0.16.0</Version>
+            <Comment>First release.</Comment>
+            <Name>Merve Yuzbasioglu</Name>
+            <Email>merveyuzbasioglu89@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
+

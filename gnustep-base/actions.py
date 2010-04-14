@@ -11,7 +11,7 @@ from pisi.actionsapi import get
 
 WorkDir="gnustep-base-%s" % get.srcVERSION()
 def setup():
-    autotools.configure("--enable-pass-arguments")
+    autotools.configure("--disable-importing-config-file")
 
 def build():
     autotools.make()

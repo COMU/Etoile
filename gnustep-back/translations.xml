@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name></Name>
+        <Summary xml:lang="tr">Gnustep gui'nin çizim yapılabilmesi için gerekli olan çekirdek pakettir.</Summary>
+        <Description xml:lang="tr">Gnustep back gui'nin soyut çizim fonksiyonlarını çizim arkaplanı olarak kullanılabilen grafik kütüphanelerinden birine dönüştürür.</Description>
+    </Source>
+</PISI>
+

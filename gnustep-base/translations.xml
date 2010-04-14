@@ -2,7 +2,7 @@
 <PISI>
         <Source>
             <Name>gnustep-base</Name>
-            <Summary xml:lang="tr">Temek Kütüphane</Summary>
+            <Summary xml:lang="tr">GNUstep-BASE Kütüphanesi</Summary>
             <Description xml:lang="tr">gnustep-base,grafiksel c nesneleri içermeyen temel bir kütüphanedir.</Description>
         </Source>
 </PISI>

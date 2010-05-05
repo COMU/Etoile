@@ -9,7 +9,7 @@ from pisi.actionsapi import autotools
 from pisi.actionsapi import pisitools
 from pisi.actionsapi import get
 
-WorkDir="onig-%s" % get.srcVERSION()
+WorkDir="oniguruma5"
 def setup():
     autotools.configure()
 
